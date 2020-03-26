@@ -1,9 +1,9 @@
 // import Layout from '../components/Layout'
 
-// export default function Index() {
+// export default function About() {
 //   return (
 //     <Layout>
-//       <p>Hello Next.js</p>
+//       <p>This is the about page</p>
 //     </Layout>
 //   )
 // }
@@ -12,7 +12,7 @@
 
 // import withLayout from '../components/Layout'
 
-// const Page = () => <p>Hello Next.js</p>
+// const Page = () => <p>This is the about page</p>
 
 // export default withLayout(Page)
 
@@ -20,8 +20,8 @@
 
 import Layout from '../components/Layout.js'
 
-const indexPageContent = <p>Hello Next.js</p>
+const aboutPageContent = <p>This is the about page</p>
 
-export default function Index() {
-  return <Layout content={indexPageContent} />
+export default function About() {
+  return <Layout content={aboutPageContent} />
 }
