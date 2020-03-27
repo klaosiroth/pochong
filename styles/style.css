@@ -1,0 +1,112 @@
+/* :root {
+  --some-color: white;
+}
+
+body {
+  background: var(--some-color);
+} */
+
+html {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell,
+    Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, Arial,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  line-height: 1.5;
+}
+
+/* .min-h-screen {
+  min-height: 100vh;
+} */
+
+/* .container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+} */
+
+footer > div > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5rem 0 5rem;
+}
+
+footer > div > div > h3 {
+  width: 50%;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: left;
+  padding-right: 1rem;
+  margin-bottom: 0;
+  letter-spacing: -0.04em;
+  line-height: 1.2;
+}
+
+footer > div > div > div {
+  width: 50%;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > div > div > div > a {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-bottom: 0;
+  transition-duration: 0.2s;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  transition-property: background-color, border-color, color, fill, stroke;
+  color: #fff;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  border: 1px solid #000;
+  background-color: #000;
+  font-weight: 600;
+}
+
+footer > div > div > div > a:hover {
+  color: #000;
+  border: 1px solid #000;
+  background-color: #fff;
+}
+
+.banner {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

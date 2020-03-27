@@ -18,10 +18,24 @@
 
 // Method 2 - Page content as a prop
 
-import Layout from '../components/Layout.js'
+// import Layout from '../components/Layout.js'
 
-const aboutPageContent = <p>This is the about page</p>
+// const aboutPageContent = <p>This is the about page</p>
 
-export default function About() {
-  return <Layout content={aboutPageContent} />
-}
+// export default function About() {
+//   return <Layout content={aboutPageContent} />
+// }
+//-----------------------------------------------------------------------------
+import Layout from '../components/layout'
+import Head from 'next/head'
+
+export default () => (
+  <>
+    <Layout>
+      <Head>
+        <title>Next.js About Example</title>
+      </Head>
+      <h1>Hello About Page</h1>
+    </Layout>
+  </>
+)
